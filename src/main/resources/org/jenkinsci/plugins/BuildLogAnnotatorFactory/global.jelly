@@ -1,0 +1,9 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Enable line number in console log">
+    <!--使用checkbox作為UI元件，並將資料綁定於enableLinenumber欄位-->
+    <f:entry title="Enable line number" field="enableLinenumber"
+      description="Check if enable line number in console log">
+      <f:checkbox />
+    </f:entry>
+  </f:section>
+</j:jelly>
